@@ -1,13 +1,183 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  
+  .imgServices{
+    width: 400px;
+    box-shadow: 0px 0px 5px rgb(253, 251, 251); 
+    border-radius: 5px;
+   
+  }
+  .cartIcon {
+    width: 70px;
+    cursor: pointer;
+  }
+  .categoryButton, .categoryButtonSelected {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #010101;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .categoryButton {
+background: linear-gradient(-45deg, #54bee8 0%, #03001C 100% );
+border-radius: 15px;
+cursor: pointer;
+  }
+  .categoryButtonSelected {
+    background: linear-gradient(-45deg, #fc00ff 0%, #03001C 100% );
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .categoryButton:hover {
+    background-color: #54bee8;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+  .categoryButtonSelected:hover {
+    padding: 5px;
+    border-radius: 15px;
+  }
+  .deleteIcon {
+    width: 40px;
+    cursor: pointer;
+  }
+  .headerService, .priceService, .buttonService, .totalService, .quantity {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #F6F6F6;
+  }
+.upBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .header {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    color: #54bee8;
+    text-align: center;
+  }
+  .description {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #F6F6F6;
+    width: 1000px;
+    line-height: 1.8;
+  }
+  .btnQuantity {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    align-content: center;
+    width: 50px;
+    height: 25px;
+    color: #F6F6F6;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(226, 222, 222, 0.932);
+    background: transparent;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .buttonService {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    align-content: center;
+    width: 150px;
+    height: 35px;
+    color: #F6F6F6;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(226, 222, 222, 0.932);
+    background: transparent;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+  .buttonService:hover, .btnQuantity:hover {
+    color: #54bee8;
+  }
+
+  .mainHeader {
+    font-family: "Raleway", sans-serif;
+    color: #F6F6F6;
+    font-size: 25px;
+    align-self: center;
+  }
+
+  .App {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    }
+    .block {
+    background: rgb(34, 44, 56, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgb(190, 187, 187);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(114, 127, 143, 1);
+    padding: 40px;
+    margin-top: 50px;
+    } 
+
+    .block + .block {
+    margin-left: 70px; 
+        
+    }
+
+    @media (max-width: 920px) {
+      .imgServices{
+        width: 250px;
+      }
+      
+      .block {
+        padding: 20px;
+        } 
+    
+        .block + .block {
+        margin-left: 30px; 
+        }
+        .headerService, .priceService, .buttonService, .totalService, .quantity {
+          font-size: 18px;
+    }
+    .buttonService {
+      width: 140px;
+  }
+  .categoryButton, .categoryButtonSelected {
+    font-size: 15px;
+}
+.mainHeader {
+  font-size: 20px;
+    }
+  }
+  @media (max-width: 500px) {
+    .imgServices{
+      width: 250px;
+    }
+    
+    .block {
+      padding: 10px;
+      } 
+  
+      .headerService, .priceService, .buttonService, .totalService, .quantity {
+        font-size: 18px;
+  }
+  .buttonService {
+    width: 140px;
+}
+.categoryButton, .categoryButtonSelected {
+  font-size: 15px;
+}
+.mainHeader {
+font-size: 18px;
+  }
 }

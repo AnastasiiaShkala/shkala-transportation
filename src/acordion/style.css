@@ -1,0 +1,74 @@
+
+.active {
+    padding: 10px;
+    /*background: linear-gradient(to left, #fc00ff, #54bee8, #F6F6F6);*/
+    background: linear-gradient(-45deg, #fc00ff 0%, #03001C 100%);
+    cursor: pointer;
+    margin-top: 10px;
+    width: 650px;
+    color: #F6F6F6;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgb(248, 246, 246);
+    border-radius: 15px;
+    }
+    
+    .default {
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 650px;
+    color: #F6F6F6;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    
+    }
+
+    .default:hover {
+        background: linear-gradient(-45deg, #54bee8 0%, #03001C 100% );
+    }
+    
+    .content {
+    padding: 15px 30px;
+    color: #F6F6F6;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    width: 600px;
+    line-height: 2;
+    
+    }
+
+    @media only screen and (max-width: 920px) {
+        .active {
+            width: 300px;
+            font-size: 20px;
+            }
+            
+            .default {
+            width: 300px;
+            font-size: 20px;
+            }
+        
+            .content {
+            padding: 15px 15px;
+            font-size: 15px;
+            }
+        
+    }
+    @media only screen and (max-width: 500px) {
+        .active {
+            font-size: 18px;
+            }
+            
+            .default {
+            font-size: 18px;
+            }
+        
+            .content {
+            padding: 10px 10px;
+            font-size: 15px;
+            width: 300px;
+            }
+        
+    }
