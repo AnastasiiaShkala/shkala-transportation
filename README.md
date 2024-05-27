@@ -1,5 +1,5 @@
 # My React Redux Project SHKALA Transportation Website
-![Project Screenshot](src/to/your/image.png)
+![Project Screenshot](/src/assets/logo_1%D0%BA1.jpeg)
 
 ## Overview
 
