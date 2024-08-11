@@ -4,17 +4,17 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import About from "./about/About";
-import MainServices from "./MainServices";
-import FAQ from "./FAQ";
-import Home from "./Home";
-import Contact from "./Contact";
-import Footer from './Footer';
-import './App.css';
-import Privacy from './Privacy';
-import Navbar from './Navbar';
-import Term from './Term';
-import Scroll from './Scroll'
+import About from "./pages/about/About";
+import MainServices from "./pages/services/MainServices";
+import FAQ from "./features/faq/FAQ";
+import Home from "./pages/home/Home";
+import Contact from "./pages/contact/Contact";
+import Footer from './shared/components/Footer';
+import './app/global-styles/App.css';
+import Privacy from './pages/privacy/Privacy';
+import Navbar from './shared/components/Navbar';
+import Term from './pages/term/Term';
+import Scroll from './shared/components/Scroll'
 
 
 function App() {
