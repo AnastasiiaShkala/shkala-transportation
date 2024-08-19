@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { ReactComponent as UpArrow } from '../../assets/icons/up-arrow.svg';
+import { ReactComponent as UpArrow } from '../../shared/assets/icons/up-arrow.svg';
 
 function ScrollButton() {
     useEffect(() => {

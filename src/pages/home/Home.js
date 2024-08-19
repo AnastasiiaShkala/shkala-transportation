@@ -1,7 +1,7 @@
 
-import img from '../../assets/images/logo_1к1.jpeg';
+import img from '../../shared/assets/images/logo_1к1.jpeg';
 import { Link } from 'react-router-dom';
-import Expertise from '../../features/about/Expertise';
+import Expertise from '../../entities/about/Expertise';
 import React, { useEffect } from 'react';
 
 function Home() {

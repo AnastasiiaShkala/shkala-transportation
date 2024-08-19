@@ -1,4 +1,4 @@
-import { Acordion } from '../acordion/Acordion';
+import { Acordion } from './Acordion';
 import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 

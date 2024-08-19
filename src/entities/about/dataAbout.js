@@ -1,5 +1,5 @@
-import imgTruck from '../../assets/images/truck.jpeg';
-import imgWeb from '../../assets/images/web.jpeg';
+import imgTruck from '../../shared/assets/images/truck.jpeg';
+import imgWeb from '../../shared/assets/images/web.jpeg';
 
 
 export const dataAbout = [

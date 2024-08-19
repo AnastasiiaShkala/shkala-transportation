@@ -1,8 +1,8 @@
-import '../../app/global-styles/App.css';
+import '../app/global-styles/App.css';
 import {
     Link
   } from "react-router-dom";
-  import img from '../../assets/icons/internet.png';
+  import img from '../shared/assets/icons/internet.png';
 
 function Navbar() {
 

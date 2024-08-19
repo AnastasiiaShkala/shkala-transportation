@@ -1,6 +1,6 @@
 
-import imgLine from '../../assets/images/line.jpg';
-import Cards from '../../features/about/Cards';
+import imgLine from '../../shared/assets/images/line.jpg';
+import Cards from '../../entities/about/Cards';
 
 function About() {
         

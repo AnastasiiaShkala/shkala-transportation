@@ -1,4 +1,4 @@
-import imgContact from '../../assets/images/main_neon_blue.jpg';
+import imgContact from '../../shared/assets/images/main_neon_blue.jpg';
 import Form from '../../features/contact/Form';
 import React, { useEffect } from 'react';
 

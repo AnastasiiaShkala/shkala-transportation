@@ -6,13 +6,13 @@ import {
 } from "react-router-dom";
 import About from "./pages/about/About";
 import MainServices from "./pages/services/MainServices";
-import FAQ from "./features/faq/FAQ";
+import FAQ from "./entities/acordion/FAQ";
 import Home from "./pages/home/Home";
 import Contact from "./pages/contact/Contact";
-import Footer from './shared/components/Footer';
+import Footer from './entities/Footer';
 import './app/global-styles/App.css';
 import Privacy from './pages/privacy/Privacy';
-import Navbar from './shared/components/Navbar';
+import Navbar from './entities/Navbar';
 import Term from './pages/term/Term';
 import Scroll from './shared/components/Scroll'
 

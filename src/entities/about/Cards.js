@@ -1,6 +1,6 @@
-import clientImage from '../../assets/icons/icons-sweat.png';
-import priceImage from '../../assets/icons/icons-price.png';
-import timeImage from '../../assets/icons/icons-clock.png';
+import clientImage from '../../shared/assets/icons/icons-sweat.png';
+import priceImage from '../../shared/assets/icons/icons-price.png';
+import timeImage from '../../shared/assets/icons/icons-clock.png';
 
 
 

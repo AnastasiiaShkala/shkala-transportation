@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LinkedinIcon from '../../assets/icons/linkedin.png';
-import EmailIcon from '../../assets/icons/email.png';
-import PhoneIcon from '../../assets/icons/phone.png';
+import LinkedinIcon from '../shared/assets/icons/linkedin.png';
+import EmailIcon from '../shared/assets/icons/email.png';
+import PhoneIcon from '../shared/assets/icons/phone.png';
 
 
 
